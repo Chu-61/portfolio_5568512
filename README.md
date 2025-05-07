@@ -1,16 +1,21 @@
-# mein_portfolio
+# Mein Portfolio-Projekt
 
-A new Flutter project.
+Das ist ein einfaches Flutter-Portfolio-Projekt mit einer Startseite.
 
-## Getting Started
+## Flutter-Version
 
-This project is a starting point for a Flutter application.
+Dieses Projekt wurde mit **Flutter 3.19.0 (stable)** erstellt.
 
-A few resources to get you started if this is your first Flutter project:
+## Projekt starten
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+So startet man das Projekt lokal:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+## Git-Branching-Strategie
+
+Wir verwenden eine einfache Git-Strategie:
+
+- Alle Änderungen werden zuerst im Branch `feature/startseite` implementiert.
+- Nach der Fertigstellung wird dieser Branch in den `main` Branch gemerged.
